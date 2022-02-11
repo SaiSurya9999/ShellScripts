@@ -1,4 +1,5 @@
 # Kubernetes setup in CENTOS
+Steps followed from [Reference Link](https://www.vultr.com/docs/deploy-kubernetes-with-kubeadm-on-centos-7/)
 
 ## Run the below Shell script in Master Node
 ```
