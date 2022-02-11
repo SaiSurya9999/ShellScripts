@@ -4,12 +4,12 @@ Steps followed from [Reference Link](https://www.vultr.com/docs/deploy-kubernete
 - Create an EC2 instance with any type of CPU and can be used as worker nodes.
 ## Run the below Shell script in Master Node
 ```
-curl https://github.com/SaiSurya9999/ShellScripts/blob/master/kubedum_master_node.sh | bash
+curl https://raw.githubusercontent.com/SaiSurya9999/ShellScripts/master/kubedum_master_node.sh | bash
 ```
 
 ## Run the below Shell script in Worker Nodes
 ```
-curl https://github.com/SaiSurya9999/ShellScripts/blob/master/kubedum_master_node.sh | bash
+curl https://raw.githubusercontent.com/SaiSurya9999/ShellScripts/master/kubedum_worker_node.sh | bash
 ```
 **Note:**  
 - After running the master shell script then the output of the command should contain something like below which should be executed in all the worker nodes.
