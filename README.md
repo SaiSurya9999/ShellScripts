@@ -1,4 +1,4 @@
-# Kubernetes setup in CENTOS
+# Kubernetes setup in CENTOS using Method:kubeadm
 Steps followed from [Reference Link](https://www.vultr.com/docs/deploy-kubernetes-with-kubeadm-on-centos-7/)
 - Create an EC2 instance with t2 medium CPU and use it as master node.
 - Create an EC2 instance with any type of CPU and can be used as worker nodes.
